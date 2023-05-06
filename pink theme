@@ -1,161 +1,79 @@
-$("head").append(`<style>
 
-.styles__sidebar___1XqWi-camelCase,
-.styles__left___9beun-camelCase,
-.styles__postsContainer___39_IQ-camelCase,
-.styles__middleWrapper___hjUyY-camelCase,
-.styles__header___22Ne2-camelCase,
-.styles__container___2VzTy-camelCase,
-.styles__input___2XTSp-camelCase,
-.styles__editHeaderContainer___2G1ji-camelCase,
-.styles__container___1BPm9-camelCase {
-  background-color: #0B54FE;
-}
-
-.styles__background___2J-JA-camelCase,
-.styles__background___2J-JA-camelCase,
-.styles__blookGridContainer___AK47P-camelCase {
-  background-color: #8432DF;
-}
-
-.styles__headerBadges___ffKa4-camelCase,
-.styles__statsContainer___QnrRB-camelCase,
-.styles__profileContainer___CSuIE-camelCase,
-.styles__tokenBalance___1FHgT-camelCase,
-.styles__infoContainer___2uI-S-camelCase,
-.styles__header___2O21B-camelCase,
-.styles__cardContainer___NGmjp-camelCase,
-.styles__plan___1OEy4-camelCase,
-.styles__perkContainer___2rw2I-camelCase,
-.styles__headerSide___1r1-b-camelCase,
-.styles__signUpButton___3_ch3-camelCase,
-.styles__loginButton___1e3jI-camelCase,
-.styles__chatEmojiButton___8RFa2-camelCase,
-.styles__button___2hNZo-camelCase,
-.styles__tradingContainer___B1ABS-camelCase,
-.styles__otherTokenAmount___SEGGS-camelCase,
-.styles__myTokenAmount___ANKHA-camelCase,
-.styles__horizontalBlookGridLine___4SAvz-camelCase,
-.styles__verticalBlookGridLine___rQWaZ-camelCase,
-.styles__profileDropdownMenu___2jUAA-camelCase,
-.styles__profileDropdownOption___ljZXD-camelCase,
-.styles__chatRooms___o5ASb-camelCase,
-.styles__chatCurrentRoom___MCaV4-camelCase,
-.styles__instantButton___2ezEk-camelCase,
-.styles__tokenContainer___3yBv--camelCase {
-  background-color: #00008B;
-}
-
-.styles__button___2hNZo-camelCase {
-  color: #4743EF;
-}
-
-.styles__pageButton___1wFuu-camelCase,
-.styles__bottomIcon___3Fswk-camelCase,
-.styles__containerHeaderInside___2omQm-camelCase,
-.styles__statNum___5RYSd-camelCase,
-.styles__shadow___3GMdH-camelCase {
-  color: #00008B;
-}
-
-.styles__statContainer___QKuOF-camelCase,
-.styles__containerHeaderInside___2omQm-camelCase,
-.styles__containerHeader___3xghM-camelCase,
-.styles__containerHeaderRight___3xghM-camelCase {
-  background-color: #0B54FE;
-}
-
-#chatBox,
-.styles__chatInputContainer___gkR4A-camelCase  {
-  background-color: #0B54FE;
-}
-
-.styles__setText___1PQLQ-camelCase {
-  color: #0fcdfc;
-}
-
-.styles__edge___3eWfq-camelCase,
-.styles__buttonFilled___23Dcn-camelCase {
-  background-color: #4743EF;
-  border-color: #4743EF;
-}
-
-.styles__lockedBlook___3oGaX-camelCase {
-  filter: brightness(0.3);
-}
-
-#packSelector::-webkit-scrollbar {
-  display: none;
-}
-
-#blookSelector::-webkit-scrollbar {
-  display: none;
-}
-
-.styles__bazaarItems___KmNa2-camelCase::-webkit-scrollbar {
-  display: none;
-}
-
-.styles__bazaarItems___KmNa2-camelCase {
-  background-color: #4743EF);
-}
-
-.styles__bazaarItem___Meg69-camelCase {
-  background-color: #4743ef;
-}
-
-.styles__bazaarItem___Meg69-camelCase:hover {
-  background-color: #8432DF;
-}
-
-.styles__container___3St5B-camelCase {
-  background-color: #0B54FE;
-}
-</style>`);
-
-/* Gotta fix some things with element.style level CSS */
-if (document.getElementsByClassName('styles__topRightRow___dQvxc-camelCase')[0] && location.pathname === '/market') {
-  document.getElementsByClassName('styles__topRightRow___dQvxc-camelCase')[0].children[0].style.backgroundColor = '#0B54FE';
-};
-
-if (document.getElementsByClassName('styles__front___vcvuy-camelCase')[0] && location.pathname === '/blooks' || location.pathname === '/store' || location.pathname === '/bazaar' || location.pathname === '/stats') {
-  Array.from(document.getElementsByClassName('styles__front___vcvuy-camelCase')).forEach(a => {
-    a.style.backgroundColor = '#0B54FE';
-  });
-
-  Array.from(document.getElementsByClassName('styles__edge___3eWfq-camelCase')).forEach(a => {
-    a.style.backgroundColor = '#0B54FE';
-  });
-
-  setInterval(() => {
-    Array.from(document.getElementsByClassName('styles__front___vcvuy-camelCase')).forEach(a => {
-      a.style.backgroundColor = '#0B54FE';
-    });
-
-    Array.from(document.getElementsByClassName('styles__edge___3eWfq-camelCase')).forEach(a => {
-      a.style.backgroundColor = '#0B54FE';
-    });
-  }, 25);
-};
-
-if (location.pathname === '/chat') {
-  document.querySelectorAll('hr').forEach(a => a.style.backgroundColor = '#C020D0');
-}
-
-if (document.getElementsByTagName('div')[0] && location.pathname === '/404' || location.pathname === '/502/' || location.pathname === '/blacklisted') {
-  document.getElementsByTagName('div')[0].style.backgroundColor = '#C020D0';
-  document.getElementsByTagName('div')[2].style.backgroundColor = '#8432DF';
-  document.getElementsByTagName('div')[2].style.filter = 'drop-shadow(white 0px 1px 3px)';
-};
-
-if (document.getElementsByClassName('styles__background___2J-JA-camelCase')[0] && location.pathname === '/trade' || location.pathname === '/store') {
-  document.getElementsByClassName('styles__background___2J-JA-camelCase')[0].style.backgroundColor = '#8432DF';
-};
-
-setInterval(() => {
-  document.querySelectorAll('input').forEach(n => n.style.backgroundColor = '#8432DF');
-}, 25);
-
-if (location.pathname === '/store') {
-  document.querySelectorAll('.styles__middleWrapper___hjUyY-camelCase')[1].style.backgroundColor = '#8432DF';
-}
+let rall = (elem, css, value) => {
+    setInterval(() => {
+      if (document.querySelectorAll(elem).length) {
+        Array.from(document.querySelectorAll(elem)).forEach(t => t.style[css] = value);
+      };
+    }, 25);
+  };
+      
+  rall('input', 'backgroundColor', 'transparent');
+  rall('.styles__front___vcvuy-camelCase', 'backgroundColor', '#0B54FE');
+    /**buttons*/
+  rall('.styles__edge___3eWfq-camelCase', 'backgroundColor', '#0B54FE');
+  /** button outline*/
+  rall('.styles__front___vcvuy-camelCase', 'color', '#ffffff');
+/** button text*/
+  rall('.sexycontainer3', 'backgroundColor', '#6f2f99');
+/** "account" section background color*/
+  rall('.sexycontainer', 'backgroundColor', '#8432DF');
+/** "account" section button color*/
+  rall('.snipegui', 'backgroundColor', '#6f2f99');
+  /** "bazaar" background color */
+  rall('.snipegui', 'border', '#4743EF');
+  /** "bazaar" border color */
+  rall('#chatDiv', 'backgroundColor', '#6f2f99');
+ /** chat background */
+  rall('#chatDiv', 'border', '#4743EF');
+  /** chat border*/
+  rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#8839bd');
+/**background color*/
+  rall('.bb_chat_dl', 'backgroundColor', '#0B54FE');
+/**chat button color*/
+  rall('.styles__sidebar___1XqWi-camelCase', 'backgroundColor', '#6f2f99');
+  /**sidebar background color*/
+  rall('.styles__statsContainer___QnrRB-camelCase', 'backgroundColor', '#6f2f99');
+  /** Friends and stats background color*/
+  rall('.styles__profileContainer___CSuIE-camelCase', 'backgroundColor', '#6f2f99');
+  /**username background color*/
+  rall('.styles__containerHeader___3xghM-camelCase', 'backgroundColor', '#8432DF');
+  /**stat button borders*/
+  rall('.styles__containerHeaderInside___2omQm-camelCase', 'backgroundColor', '#0B54FE');
+  /**stat button fill colors*/
+  rall('.styles__containerHeaderRightFriends___3xghM-camelCase', 'backgroundColor', '#8432DF');
+  /**more stat button borders*/
+  rall('.styles__statContainer___QKuOF-camelCase', 'backgroundColor', '#8432DF');
+  /**MORE STAT BUTTON COLORS*/
+  rall('.styles__postsContainer___39_IQ-camelCase', 'backgroundColor', '#6f2f99');
+/**news fill colr*/
+  rall('.styles__cardContainer___NGmjp-camelCase', 'backgroundColor', '#6f2f99');
+/**news posts fill color*/
+  rall('.styles__header___2O21B-camelCase', 'backgroundColor', '#6f2f99');
+/**News header (title)*/
+  rall('.styles__chatInputContainer___gkR4A-camelCase', 'backgroundColor', '#6f2f99');
+/**bb chat box*/
+  rall('.styles__chatEmojiButton___8RFa2-camelCase', 'backgroundColor', '#0B54FE');
+  /**bb chat emoji*/
+  rall('.styles__container___1BPm9-camelCase', 'backgroundColor', '#6f2f99');
+  /**bb rocket spammer*/
+  rall('.styles__chatRooms___o5ASb-camelCase', 'backgroundColor', '#6f2f99');
+  /**news menu bar*/
+  rall('.styles__editHeaderContainer___2G1ji-camelCase', 'backgroundColor', '#6f2f99');
+  /**friends menu bar*/
+  rall('.styles__containerHeaderRight___3xghM-camelCase', 'backgroundColor','#0B54FE');
+  /** leaderboard button borders*/
+  rall('.styles__containerHeader___3xghM-camelCase', 'backgroundColor','#0B54FE');
+  /**other leaderboard button border*/
+  rall('.styles__chatEmojiPickerBody___KR4aN-camelCase', 'backgroundColor','#6f2f99');
+  /**emoji picker background*/
+  rall('.styles__chatEmojiPickerHeader___FK4Ac-camelCase', 'backgroundColor','#6f2f99');
+  /**emoji picker header*/
+rall('.styles__infoContainer___2uI-S-camelCase', 'backgroundColor', '#6f2f99');
+/**bb settings buttons fill*/
+rall('.styles__profileDropdownOption___ljZXD-camelCase', 'backgroundColor','#6f2f99');
+/**drop down pfp color*/
+rall('.styles__blooksHolder___1skET-camelCase', 'backgroundColor', '#6f2f99');
+/**blook selector background*/
+rall('.styles__container___3St5B-camelCase', 'backgroundColor', '#6f2f99');
+/**blook selector bottom part*/
+rall('.styles__blooketText___1pMBG-camelCase', 'color', '#0B54FE');
