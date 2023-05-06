@@ -1,4 +1,11 @@
-
+/**
+ * @name Pink Plugin
+ * @authorId 5724287
+ * @version 1.0.0
+ * @description A plugin required for the Pink theme to function.
+ * @source https://github.com/fristicck/Blacket/blob/main/pink%20theme
+ */
+ 
 let rall = (elem, css, value) => {
     setInterval(() => {
       if (document.querySelectorAll(elem).length) {
