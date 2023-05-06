@@ -30,13 +30,13 @@ rall('.sexycontainer3', 'backgroundColor', '#6f2f99');
 // "account" section background color
 rall('.sexycontainer', 'backgroundColor', '#8432DF');
 // "account" section button color
-rall('.snipegui', 'backgroundColor', '#6f2f99');
+rall('.snipegui', 'backgroundColor', '#8839bd');
 // "bazaar" background color 
-rall('.snipegui', 'border', '#6f2f99');
+rall('.snipegui', 'border', '#8839bd');
 // "bazaar" border color 
-rall('#chatDiv', 'backgroundColor', '#6f2f99');
+rall('#chatDiv', 'backgroundColor', '#8839bd');
 // chat background 
-rall('#chatDiv', 'border', '#6f2f99');
+rall('#chatDiv', 'border', '#8839bd');
 // chat border
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#8839bd');
 //background color
@@ -150,5 +150,15 @@ rall('.styles__bazaarItems___KmNa2-camelCase', 'backgroundColor', '#6f2f99');
 // bazaar recent listing bottom
 rall('.styles__bazaarItem___Meg69-camelCase', 'backgroundColor', '#8839bd');
 // bazaar recent listing, items background
-rall('.loaderBlook', 'backgroundColor', '#6f2f99');
-// blacket loading logo
+rall('.styles__pageButton___1wFuu-camelCase:hover', 'color', '#ffffff');
+// blacket sidebar icon hover
+rall('#bb_contextmenu', 'backgroundColor', '#8839bd');
+// chat right click menu color
+rall('.styles__chatMessageMention___2Z1ZU-camelCase', 'backgroundColor', '#8839bd');
+// chat mention color
+rall('.styles__chatMessage___2Z1ZU-camelCase', 'color', '#0B54FE');
+// chat color (visual; you only)
+rall('.chatMessage', 'color', '#0B54FE');
+// bb chat color
+rall('.styles__levelBar___2SU0x-camelCase', 'backgroundColor', '#6f2f99');
+// level bar background color
