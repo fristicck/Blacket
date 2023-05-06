@@ -13,6 +13,11 @@ let rall = (elem, css, value) => {
       };
     }, 25);
   };
+
+let hover = (elem, css, value) => {
+  document.head += `<style>${elem}:hover { ${css}: {value} !important }</style>`;
+};
+
       
   rall('input', 'backgroundColor', 'transparent');
   /*background color*/
