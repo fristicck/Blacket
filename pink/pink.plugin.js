@@ -1,4 +1,3 @@
-
 /**
  * @name Pink Plugin
  * @authorId 5724287
@@ -17,7 +16,6 @@ let hover = (elem, css, value) => {
   document.head += `<style>${elem}:hover { ${css}: ${value} !important }</style>`;
 };
 
-      
 rall('input', 'backgroundColor', 'transparent');
 // background color
 rall('.styles__front___vcvuy-camelCase', 'backgroundColor', '#0B54FE');
@@ -31,11 +29,11 @@ rall('.sexycontainer3', 'backgroundColor', '#6f2f99');
 rall('.sexycontainer', 'backgroundColor', '#8432DF');
 // "account" section button color
 rall('.snipegui', 'backgroundColor', '#8839bd');
-// "bazaar" background color 
+// "bazaar" background color
 rall('.snipegui', 'border', '#8839bd');
-// "bazaar" border color 
+// "bazaar" border color
 rall('#chatDiv', 'backgroundColor', '#8839bd');
-// chat background 
+// chat background
 rall('#chatDiv', 'border', '#8839bd');
 // chat border
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#8839bd');
@@ -93,7 +91,7 @@ rall('.styles__blooketText___1pMBG-camelCase', 'color', '#0B54FE');
 rall('.styles__chatRoomsButton___K4ABa-camelCase:hover', 'backgroundColor', '#6f2f99');
 // blacket chat button hover
 rall('hr', 'backgroundColor', '#0B54FE');
-//chat div color 
+//chat div color
 rall('.styles__chatRoomsTitle___fR4Av-camelCase', 'color', '#0B54FE');
 // Rooms title in chat
 rall('.styles__chatEmojiPickerContainer___KR4aN-camelCase', 'backgroundColor', '#6f2f99');
@@ -166,3 +164,6 @@ rall('.sendMsg', 'color', '#0B54FE');
 //bb chat color
 rall('.styles__headerBadgeBg___12ogR-camelCase', 'backgroundColor', '#6f2f99');
 // badge bar background color
+// this doesnt work on bb because deaf bad coder
+rall('.styles__left___9beun-camelCase', 'backgroundColor', '#6f2f99');
+//changes blook collection outline color
