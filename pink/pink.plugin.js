@@ -1,3 +1,4 @@
+
 /**
  * @name Pink Plugin
  * @authorId 5724287
@@ -13,7 +14,7 @@ let rall = (elem, css, value) => {
 };
 
 let hover = (elem, css, value) => {
-  document.head += `<style>${elem}:hover { ${css}: {value} !important }</style>`;
+  document.head += `<style>${elem}:hover { ${css}: ${value} !important }</style>`;
 };
 
       
@@ -31,11 +32,11 @@ rall('.sexycontainer', 'backgroundColor', '#8432DF');
 // "account" section button color
 rall('.snipegui', 'backgroundColor', '#6f2f99');
 // "bazaar" background color 
-rall('.snipegui', 'border', '#4743EF');
+rall('.snipegui', 'border', '#6f2f99');
 // "bazaar" border color 
 rall('#chatDiv', 'backgroundColor', '#6f2f99');
 // chat background 
-rall('#chatDiv', 'border', '#4743EF');
+rall('#chatDiv', 'border', '#6f2f99');
 // chat border
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#8839bd');
 //background color
@@ -47,11 +48,11 @@ rall('.styles__statsContainer___QnrRB-camelCase', 'backgroundColor', '#6f2f99');
 // Friends and stats background color
 rall('.styles__profileContainer___CSuIE-camelCase', 'backgroundColor', '#6f2f99');
 //username background color
-rall('.styles__containerHeader___3xghM-camelCase', 'backgroundColor', '#8432DF');
+rall('.styles__containerHeader___3xghM-camelCase', 'backgroundColor', '#0B54FE');
 //stat button borders
 rall('.styles__containerHeaderInside___2omQm-camelCase', 'backgroundColor', '#0B54FE');
 //stat button fill colors
-rall('.styles__containerHeaderRightFriends___3xghM-camelCase', 'backgroundColor', '#8432DF');
+rall('.styles__containerHeaderRightFriends___3xghM-camelCase', 'backgroundColor', '#0B54FE');
 //more stat button borders
 rall('.styles__statContainer___QKuOF-camelCase', 'backgroundColor', '#8432DF');
 //MORE STAT BUTTON COLORS
@@ -77,7 +78,7 @@ rall('.styles__containerHeader___3xghM-camelCase', 'backgroundColor', '#0B54FE')
 //other leaderboard button border
 rall('.styles__chatEmojiPickerBody___KR4aN-camelCase', 'backgroundColor', '#6f2f99');
 //emoji picker background
-rall('.styles__chatEmojiPickerHeader___FK4Ac-camelCase', 'backgroundColor', '#6f2f99');
+rall('.styles__chatEmojiPickerHeader___FK4Ac-camelCase', 'backgroundColor', '#0B54FE');
 //emoji picker header
 rall('.styles__infoContainer___2uI-S-camelCase', 'backgroundColor', '#6f2f99');
 //bb settings buttons fill
@@ -88,3 +89,56 @@ rall('.styles__blooksHolder___1skET-camelCase', 'backgroundColor', '#6f2f99');
 rall('.styles__container___3St5B-camelCase', 'backgroundColor', '#6f2f99');
 //blook selector bottom part
 rall('.styles__blooketText___1pMBG-camelCase', 'color', '#0B54FE');
+//blacket logo
+rall('.styles__chatRoomsButton___K4ABa-camelCase:hover', 'backgroundColor', '#6f2f99');
+// blacket chat button hover
+rall('hr', 'backgroundColor', '#0B54FE');
+//chat div color 
+rall('.styles__chatRoomsTitle___fR4Av-camelCase', 'color', '#0B54FE');
+// Rooms title in chat
+rall('.styles__chatEmojiPickerContainer___KR4aN-camelCase', 'backgroundColor', '#6f2f99');
+// bottom of emoji container
+rall('.styles__tokenBalance___1FHgT-camelCase', 'backgroundColor', '#6f2f99');
+// token box color
+rall('.styles__instantButton___2ezEk-camelCase', 'backgroundColor', '#0B54FE');
+// instant open color
+rall('.bb_packspam_btn', 'backgroundColor', '#0B54FE');
+//bb spam opener color
+rall('.styles__pageButton___1wFuu-camelCase:hover', 'backgroundColor', '#6f2f99');
+// page button hover color
+rall('.styles__pageText___1eo7q-camelCase', 'color', '#ffffff');
+// page text hover
+rall('.styles__settingButton___2xaQu-camelCase', 'backgroundColor', '#0b54FE');
+//show all blooks button color
+rall('.styles__blooksHolder___3qZR1-camelCase', 'backgroundColor', '#8839bd');
+// blooks display color
+rall('.toastMessage', 'backgroundColor', '#6f2f99');
+//trade req background
+rall('.styles__header___WE435-camelCase', 'color', '#0B54FE');
+// settings setting color
+rall('.styles__header___22Ne2-camelCase', 'backgroundColor', '#6f2f99');
+//blacket plus header
+rall('.styles__middleWrapper___hjUyY-camelCase', 'backgroundColor', '#6f2f99');
+//plus perks background
+rall('.styles__perkContainer___2rw2I-camelCase', 'backgroundColor', '#0B54FE');
+//plus perk button colors
+rall('.styles__plan___1OEy4-camelCase', 'backgroundColor', '#6f2f99');
+//plus plan background color
+rall('.styles__formsContainer___Fk4Av-camelCase', 'backgroundColor', '#6f2f99');
+//form border colors
+rall('.styles__formsForm___MvA35-camelCase', 'backgroundColor', '#0B54FE');
+// form background color
+rall('.styles__chatInputBox___fvMA4-camelCase', 'color', '#0B54FE');
+// chat text color
+rall('.styles__chatCurrentRoom___MCaV4-camelCase', 'backgroundColor', '#0B54FE');
+// current room background color
+rall('.styles__profileContainer___CSuIE-camelCase:hover>.styles__profileDropdownMenu___2jUAA-camelCase', 'backgroundColor', '#6f2f99');
+// drop down profile border color
+rall('.styles__headerSide___1r1-b-camelCase', 'backgroundColor', '#6f2f99');
+// left side of blacket home page color
+rall('.styles__signUpButton___3_ch3-camelCase', 'backgroundColor', '#0B52FE');
+// sign up button background color
+rall('.styles__loginButton___1e3jI-camelCase', 'backgroundColor', '#0B52FE');
+// log in button background color
+rall('.styles__logoText___1eUDm-camelCase', 'color', '#0B54FE')
+// blacket logo on home page
