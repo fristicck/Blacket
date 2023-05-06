@@ -28,13 +28,13 @@ rall('.sexycontainer3', 'backgroundColor', '#6f2f99');
 // "account" section background color
 rall('.sexycontainer', 'backgroundColor', '#8432DF');
 // "account" section button color
-rall('.snipegui', 'backgroundColor', '#8839bd');
+rall('.snipegui', 'backgroundColor', '#652B8C');
 // "bazaar" background color
-rall('.snipegui', 'border', '#8839bd');
+rall('.snipegui', 'border', '#652B8C');
 // "bazaar" border color
-rall('#chatDiv', 'backgroundColor', '#8839bd');
+rall('#chatDiv', 'backgroundColor', '#652B8C');
 // chat background
-rall('#chatDiv', 'border', '#8839bd');
+rall('#chatDiv', 'border', '#652B8C');
 // chat border
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#8839bd');
 //background color
@@ -150,7 +150,7 @@ rall('.styles__bazaarItem___Meg69-camelCase', 'backgroundColor', '#8839bd');
 // bazaar recent listing, items background
 rall('.styles__pageButton___1wFuu-camelCase:hover', 'color', '#ffffff');
 // blacket sidebar icon hover
-rall('#bb_contextmenu', 'backgroundColor', '#8839bd');
+rall('#bb_contextmenu', 'backgroundColor', '#6f2f99');
 // chat right click menu color
 rall('.styles__chatMessageMention___2Z1ZU-camelCase', 'backgroundColor', '#8839bd');
 // chat mention color
@@ -167,3 +167,5 @@ rall('.styles__headerBadgeBg___12ogR-camelCase', 'backgroundColor', '#6f2f99');
 // this doesnt work on bb because deaf bad coder
 rall('.styles__left___9beun-camelCase', 'backgroundColor', '#6f2f99');
 //changes blook collection outline color
+rall('.mo', 'backgroundColor', '#6f2f99')
+// right click chat word fill
