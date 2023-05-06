@@ -114,7 +114,7 @@ rall('.styles__blooksHolder___3qZR1-camelCase', 'backgroundColor', '#8839bd');
 // blooks display color
 rall('.toastMessage', 'backgroundColor', '#6f2f99');
 //trade req background
-rall('.styles__header___WE435-camelCase', 'color', '#0B54FE');
+rall('.styles__header___WE435-camelCase', 'color', '#ffffff');
 // settings setting color
 rall('.styles__header___22Ne2-camelCase', 'backgroundColor', '#6f2f99');
 //blacket plus header
@@ -140,5 +140,15 @@ rall('.styles__signUpButton___3_ch3-camelCase', 'backgroundColor', '#0B52FE');
 // sign up button background color
 rall('.styles__loginButton___1e3jI-camelCase', 'backgroundColor', '#0B52FE');
 // log in button background color
-rall('.styles__logoText___1eUDm-camelCase', 'color', '#0B54FE')
+rall('.styles__logoText___1eUDm-camelCase', 'color', '#0B54FE');
 // blacket logo on home page
+rall('.plugin', 'backgroundColor', '#8839bd');
+// plugin background color
+rall('.styles__bazaarItemsContainer___GkAC2-camelCase', 'backgroundColor', '#6f2f99');
+// bazaar recent listing background
+rall('.styles__bazaarItems___KmNa2-camelCase', 'backgroundColor', '#6f2f99');
+// bazaar recent listing bottom
+rall('.styles__bazaarItem___Meg69-camelCase', 'backgroundColor', '#8839bd');
+// bazaar recent listing, items background
+rall('.loaderBlook', 'backgroundColor', '#6f2f99');
+// blacket loading logo
