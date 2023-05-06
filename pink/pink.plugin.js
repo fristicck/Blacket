@@ -164,3 +164,5 @@ rall('.styles__levelBar___2SU0x-camelCase', 'backgroundColor', '#6f2f99');
 // level bar background color
 rall('.sendMsg', 'color', '#0B54FE');
 //bb chat color
+rall('.styles__headerBadgeBg___12ogR-camelCase', 'backgroundColor', '#6f2f99');
+// badge bar background color
