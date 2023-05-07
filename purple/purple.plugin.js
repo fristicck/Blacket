@@ -1,9 +1,9 @@
 /**
- * @name Pink Plugin
+ * @name Purple Theme
  * @authorId 5724287
  * @version 1.0.0
- * @description A plugin required for the Pink theme to function.
- * @source https://github.com/fristicck/Blacket/blob/main/pink%20theme
+ * @description A nice Purple theme for Blacket.
+ * @source https://github.com/BetterBlacket/fristic/blob/main/purple
  */
 
 let rall = (elem, css, value) => {
@@ -165,8 +165,6 @@ rall('.mo', 'backgroundColor', '#6f2f99');
 // right click chat word fill
 rall('.styles__container___2VzTy-camelCase', 'backgroundColor', '#6f2f99');
 //login background color
-
-//login button color
 rall('.styles__toastContainer___o4pCa-camelCase', 'backgroundColor', '#6f2f99');
 // notification backgroundColor
 rall('.styles__tradingContainer___B1ABS-camelCase', 'backgroundColor', '#6f2f99')
