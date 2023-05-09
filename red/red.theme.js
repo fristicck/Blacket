@@ -1,8 +1,8 @@
 /**
- * @name Red Theme
+ * @name red plugin 
  * @authorId 5724287
  * @version 1.0.0
- * @description A fierce Red theme for Blacket.
+ * @description A plugin required for the red theme to function.
  * @source 
  */
 
@@ -64,7 +64,7 @@ rall('.styles__postsContainer___39_IQ-camelCase', 'backgroundColor', '#3D0303');
 //news fill colr
 rall('.styles__cardContainer___NGmjp-camelCase', 'backgroundColor', '#3D0303');
 //news posts fill color
-rall('.styles__chatInputContainer___gkR4A-camelCase', 'backgroundColor', '#8B0000')
+rall('.styles__chatInputContainer___gkR4A-camelCase', 'backgroundColor', '#3D0303')
 //around chat
 rall('.styles__header___2O21B-camelCase', 'backgroundColor', '#3D0303');
 //News header (title)
@@ -247,7 +247,7 @@ rall('.styles__bazaarItems___KmNa2-camelCase', 'border', '3px solid #EE4B2B');
 // bazaar listings border
 rall('.styles__headerBadgeBg___12ogR-camelCase', 'border', '3px solid #EE4B2B');
 //badges border
-rall('.sendMsg', 'backgroundColor', '#8b0000')
+rall('.sendMsg', 'backgroundColor', '#3D0303');
 //bb message box
 rall('h1', 'color', '#EE4B2B');
 // bb bazaar and global chat colors
@@ -277,7 +277,7 @@ rall('.styles__statTitle___z4wSV-camelCase', 'color', '#EE4B2B');
 // button header text color
 rall('.styles__headerButtonInside___26e_U-camelCase', 'color', '#EE4B2B');
 // view user and trade button text
-rall('.styles__chatInputBox___fvMA4-camelCase', 'backgroundColor', '#8B0000');
+rall('.styles__chatInputBox___fvMA4-camelCase', 'backgroundColor', '#3D0303');
 //chatbox background color
 rall('.styles__chatEmojiButton___8RFa2-camelCase', 'border', '2px solid #EE4B2B');
 // chat emoji selector icon border
@@ -341,7 +341,7 @@ rall('.jscolor', 'border', '3px solid #EE4B2B');
 //change username or chat color container
 rall('.jscolor-border', 'border', '3px solid #EE4B2B');
 //select username or chat color, border
-rall('input', 'backgroundColor', '#8b0000');
+rall('input', 'backgroundColor', '#3D0303');
 // text background color
 rall('.styles__container___2VzTy-camelCase', 'border', '3px solid #EE4B2B');
 // login page border
