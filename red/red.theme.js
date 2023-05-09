@@ -1,8 +1,8 @@
 /**
- * @name red plugin 
+ * @name Red Theme
  * @authorId 5724287
  * @version 1.0.0
- * @description A plugin required for the red theme to function.
+ * @description A fierce Red theme for Blacket.
  * @source 
  */
 
