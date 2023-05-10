@@ -42,7 +42,7 @@ rall('#chatDiv', 'border', '3px solid #EE4B2B');
 // chat border
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', 'transparent');
 //background color
-rall('.styles__background___2J-JA-camelCase', 'background', 'linear-gradient(90deg, rgba(184,0,0,1) 0%, rgba(61,3,3,1) 100%)');
+rall('.styles__background___2J-JA-camelCase', 'background', 'linear-gradient(90deg, rgba(61,3,3,1) 0%, rgba(184,0,0,1) 100%)');
 //background gradient
 rall('.bb_chat_dl', 'backgroundColor', '#610000');
 //chat button color
