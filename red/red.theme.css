@@ -952,3 +952,8 @@ a {
 #pageNumber {
   color: #EE4B2B !important;
 }
+
+.bb_chat_dl,
+.styles__chatEmojiButton___8RFa2-camelCase {
+  margin-top: -2px !important;
+}
