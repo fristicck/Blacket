@@ -69,7 +69,8 @@
 .styles__tokenBalance___1FHgT-camelCase,
 .styles__tradingContainer___B1ABS-camelCase,
 .styles__welcomeButton___39pgl-camelCase,
-.toastMessage {
+.toastMessage,
+.plugin {
     border: 3px solid #ee4b2b !important
 }
 
@@ -139,7 +140,9 @@
 .styles__tokenBalance___1FHgT-camelCase,
 .styles__tradingContainer___B1ABS-camelCase,
 .toastMessage,
-input {
+input,
+.pluginbuttons,
+.plugin  {
     background-color: #3d0303 !important
 }
 
@@ -147,7 +150,9 @@ input {
 .styles__chatRoomsTitle___fR4Av-camelCase,
 .styles__header___WE435-camelCase,
 .styles__pageIcon___3OSy9-camelCase,
-.styles__pageText___1eo7q-camelCase {
+.styles__pageText___1eo7q-camelCase,
+.fa-trash-alt::before,
+.fa-code::before {
     color: #ee4b2b !important
 }
 
@@ -165,22 +170,18 @@ hr {
 
 .styles__edge___3eWfq-camelCase,
 .styles__planBackground___3Hn_x-camelCase,
-.styles__planButtonInside___wAgJI-camelCase {
+.styles__planButtonInside___wAgJI-camelCase
+{
     background: #3d0303 !important
 }
 
 #formBody,
-.plugin,
 .styles__bazaarItem___Meg69-camelCase,
 .styles__horizontalBlookGridLine___4SAvz-camelCase,
 .styles__myTokenAmount___ANKHA-camelCase,
 .styles__otherTokenAmount___SEGGS-camelCase,
 .styles__verticalBlookGridLine___rQWaZ-camelCase {
     background-color: #8b0000 !important
-}
-
-.plugin {
-    color: #301934 !important
 }
 
 #amountOfResults,
