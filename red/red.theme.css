@@ -318,21 +318,21 @@ input.noplace {
 }
 
 #requestsFriendsContainer > div[style="color: white;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
-    color: #ee4b2b !important;
+    color: #ee4b2b !important
 }
 
 #innermodal > div[style="text-align: center;font-size: 40px;color: white;top: 10px;position: absolute;width: 100%;"] {
-    color: #ee4b2b !important;
+    color: #ee4b2b !important
 }
 
 #appendPlugs > div[style="font-size: 20px;color: white;margin-left:15px;white-space:nowrap;"] {
-    color: #ee4b2b !important;
+    color: #ee4b2b !important
 }
 
 .slider.round:before {
-    background: #ee4b2b !important;
+    background: #ee4b2b !important
 }
 
 .slider {
-    top: -5px !important;
+    top: -5px !important
 }
