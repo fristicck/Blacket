@@ -142,7 +142,8 @@
 .toastMessage,
 input,
 .pluginbuttons,
-.plugin  {
+.plugin,
+.slider.round  {
     background-color: #3d0303 !important
 }
 
@@ -325,4 +326,8 @@ input.noplace {
 
 #appendPlugs > div[style="font-size: 20px;color: white;margin-left:15px;white-space:nowrap;"] {
     color: #ee4b2b !important;
+}
+
+.slider.round:before {
+    background-color: #ee4b2b;
 }
