@@ -95,7 +95,7 @@ input {
 }
 
 .styles__chatEmojiButton___8RFa2-camelCase {
-  background-color: #610000 !important;
+  background-color: #3D0303 !important;
 }
 
 .styles__container___1BPm9-camelCase {
@@ -956,4 +956,16 @@ a {
 .bb_chat_dl,
 .styles__chatEmojiButton___8RFa2-camelCase {
   margin-top: -2px !important;
+}
+
+::placeholder {
+  color: #EE4B2B !important;
+}
+
+#bb_contextmenu {
+  border: 3px solid #EE4B2B !important;
+}
+
+#bb_contextmenu {
+  color: #EE4B2B !important;
 }
