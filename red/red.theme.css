@@ -142,8 +142,7 @@
 .toastMessage,
 input,
 .pluginbuttons,
-.plugin,
-.slider.round  {
+.plugin {
     background-color: #3d0303 !important
 }
 
@@ -171,7 +170,8 @@ hr {
 
 .styles__edge___3eWfq-camelCase,
 .styles__planBackground___3Hn_x-camelCase,
-.styles__planButtonInside___wAgJI-camelCase
+.styles__planButtonInside___wAgJI-camelCase,
+.slider.round
 {
     background: #3d0303 !important
 }
@@ -329,5 +329,5 @@ input.noplace {
 }
 
 .slider.round:before {
-    background-color: #ee4b2b;
+    background: #ee4b2b;
 }
