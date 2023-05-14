@@ -316,3 +316,7 @@ input.noplace {
 #requestsFriendsContainer > div[style="color: white;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
     color: #ee4b2b !important;
 }
+
+#innermodal > div[style="text-align: center;font-size: 40px;color: white;top: 10px;position: absolute;width: 100%;"] {
+    color: #ee4b2b !important;
+}
