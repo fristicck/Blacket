@@ -984,3 +984,22 @@ a {
 #requestsFriendsContainer > div[style="color: #EE4B2B;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
   color: #EE4B2B !important;
 }
+
+#loaderBlook {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  overflow: visible;
+  }
+  
+  #loaderBlook::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15vw;
+  height: 15vw;
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-image: url('https://cdn.discordapp.com/attachments/1040926417262759966/1107417926073594098/carti_emoji_transparent.png');
+  }
