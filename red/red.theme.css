@@ -70,7 +70,8 @@
 .styles__tradingContainer___B1ABS-camelCase,
 .styles__welcomeButton___39pgl-camelCase,
 .toastMessage,
-.plugin {
+.plugin,
+.slider.round {
     border: 3px solid #ee4b2b !important
 }
 
