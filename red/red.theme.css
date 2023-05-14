@@ -970,3 +970,6 @@ a {
   color: #EE4B2B !important;
 }
 
+:root, :host {
+  color:#EE4B2B !important;
+}
