@@ -330,5 +330,9 @@ input.noplace {
 }
 
 .slider.round:before {
-    background: #ee4b2b;
+    background: #ee4b2b !important;
+}
+
+.slider {
+    top: -5px !important;
 }
