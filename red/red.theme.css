@@ -981,6 +981,6 @@ a {
   padding: 1px !important;
 }
 
-#requestsFriendsContainer > div[style="color: white;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
-  color: red !important;
+#requestsFriendsContainer > div[style="color: #EE4B2B;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
+  color: #EE4B2B !important;
 }
