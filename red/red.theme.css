@@ -980,3 +980,7 @@ a {
 .styles__chatInputContainer___gkR4A-camelCase {
   padding: 1px !important;
 }
+
+#requestsFriendsContainer > div[style="color: white;display: flex;justify-content: center;align-content: center;align-items: center;margin-bottom: 5px;"] {
+  color: red !important;
+}
