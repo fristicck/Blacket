@@ -333,6 +333,15 @@ input.noplace {
     background: #ee4b2b !important
 }
 
-.slider {
+.slider,
+.styles__headerBadgeBg___12ogR-camelCase {
     top: -5px !important
+}
+
+.bb_chat_dl {
+    margin: -1px !important
+}
+
+.styles__plusButton___2dH73-camelCase {
+filter: drop-shadow(0 0 3.5px rgba(238,75,43));
 }
