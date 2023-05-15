@@ -290,7 +290,7 @@ input.noplace {
 }
 
 .styles__buttonFilled___23Dcn-camelCase {
-    color: EE4B2B !important
+    color: #EE4B2B !important
 }
 
 #amountOfResults,
@@ -354,6 +354,6 @@ filter: drop-shadow(10px 3px 20px black);
     top: 54%;
 }
 
-.sendMsg {
+.sendBox:hover {
 outline: none !important
 }
