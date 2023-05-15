@@ -349,3 +349,7 @@ filter: drop-shadow(0 0 3.5px rgba(238,75,43));
 .styles__blooketText___1pMBG-camelCase {
 filter: drop-shadow(10px 3px 20px black);
 }
+
+.styles__friendsAvatar___mvaW3-camelCase {
+    top: 54%;
+}
